@@ -9,4 +9,4 @@ COPY src ./src
 
 RUN mvn package
 
-CMD ["java", " -jar", "target/Main-1.0-SNAPSHOT.jar"]
+CMD ["java", " -jar", "target/docker-maven-1.0-SNAPSHOT.jar"]
